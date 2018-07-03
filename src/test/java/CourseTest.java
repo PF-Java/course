@@ -10,9 +10,11 @@ public class CourseTest {
         String loan = "Loan";
         course.addStudent(loan);
         displayCourse(course);
+        course.removeStudent(trang);
+        displayCourse(course);
 
         String anh = "Anh";
-        course.addStudent(anh);
+        course.removeStudent(trang);
         displayCourse(course);
     }
 
